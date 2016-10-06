@@ -1,0 +1,26 @@
+body {
+	background-color: white;
+}
+
+p {
+	font-family: arial;
+	color: black;
+	font-size: 8;
+}
+h1 {
+	font-family: 'orbitron', sans-serif;
+	font-weight:bold;
+	color: black;
+	text-align: center;
+	font-size: 32;
+}
+
+h3 {
+	font-style: bold;
+	color: black;
+	text-align: center;
+}
+div {
+	color: red;
+	text-align: center;
+}
