@@ -1,26 +1,23 @@
-body {
-	background-color: white;
+.folder{
+	display: flex;
+	background-color: #dddddd;
+	padding-top:;
+	padding-right:;
+	padding-bottom:;
+	padding-left:;
+}
+.folder.folder--selected{
+	background-color: #cccccc;
 }
 
-p {
-	font-family: arial;
-	color: black;
-	font-size: 8;
-}
-h1 {
-	font-family: 'orbitron', sans-serif;
-	font-weight:bold;
-	color: black;
-	text-align: center;
-	font-size: 32;
+.folder__icon{
+	margin-right:;
 }
 
-h3 {
-	font-style: bold;
-	color: black;
-	text-align: center;
+.folder__label{
+	color: #666666;
 }
-div {
-	color: red;
-	text-align: center;
+
+.sidebar{
+	width:;
 }
