@@ -1,10 +1,14 @@
-.folder{
+h3 {
+	text-align: center;
+	font-size: 1.667em;
+}
+class="header" {
+		text-align: right;
+}
+.container{
 	display: flex;
 	background-color: #dddddd;
-	padding-top:;
-	padding-right:;
-	padding-bottom:;
-	padding-left:;
+	padding:25px;
 }
 .folder.folder--selected{
 	background-color: #cccccc;
