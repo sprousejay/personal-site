@@ -24,3 +24,12 @@ div {
 	color: black;
 	text-align: center;
 }
+
+a {
+	text-decoration: none;
+}
+
+.pagesItem--currentPage {
+	font-weight: bold;
+	color: Green;
+}

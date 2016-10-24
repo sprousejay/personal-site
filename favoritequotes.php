@@ -2,11 +2,11 @@
 
 	$currentPage = "Quotes";
 
-	function isCurrentPage($pageName, currentPage) {
-	if ($pageName == $currentPage) {
-		echo "pagesList__pagesItem--currentPage";
-	}
-	}
+  function isCurrentPage($pageName, $currentPage) {
+   if ($pageName == $currentPage) {
+    echo "pagesItem--currentPage";
+   }
+  }
 ?>
 
 <!DOCTYPE html>
@@ -27,30 +27,30 @@
 <div class="navigation">
 
     
-    <ul class="pagesList">
-      <li>
-        <a class="pagesList__pagesItem <?php isCurrentPage("Home", $currentPage); ?> <a href="index.html">
-          Home
-        </a>
-      </li>
+  <ul class="pagesList">
+    <li>
+      <a class="pagesList__pagesItem <?php isCurrentPage("Home", $currentPage); ?> " href="index.php">
+        Home
+      </a>
+    </li>
 
-      <li>
-        <a class="pagesList__pagesItem <?php isCurrentPage("Goals", $currentPage); ?> <a href="goals.html">
-          Goals
-        </a>
-      </li>
+    <li>
+      <a class="pagesList__pagesItem <?php isCurrentPage("Goals", $currentPage); ?> " href="goals.php">
+        Goals
+      </a>
+    </li>
 
-      <li>
-        <a class="pagesList__pagesItem <?php isCurrentPage("Quotes", $currentPage); ?> <a href="favoritequotes.html">
-          Quotes
-        </a>
-      </li>
+    <li>
+      <a class="pagesList__pagesItem <?php isCurrentPage("Quotes", $currentPage); ?> " href="favoritequotes.php">
+        Quotes
+      </a>
+    </li>
 
-      <li>
-        <a class="pagesList__pagesItem" <?php isCurrentPage("GitHubProfile"); ?> <a href="https://github.com/sprousejay">
-          GitHub Profile
-          </a>
-      </li>
+    <li>
+      <a class="pagesList__pagesItem <?php isCurrentPage("GitHubProfile"); ?> " href="https://github.com/sprousejay">
+        GitHub Profile
+        </a>
+    </li>
 
     </ul>
 </div>
