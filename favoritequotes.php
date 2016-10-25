@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="personal.css">
 </head>
 <body>
+<div class="container">
 <h1>Jay Sprouse</h1>
 
 
@@ -53,6 +54,7 @@
     </li>
 
     </ul>
+</div>
 </div>
 
 </body>

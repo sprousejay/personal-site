@@ -1,35 +1,53 @@
 body {
-	background-color: white;
+	background: black url("black-bg.jpg") fixed;
+	color: white;
+	font-family: arial;
 }
 
 p {
-	font-family: arial;
-	color: black;
-	font-size: 8;
+	font-size: 10;
 }
 h1 {
 	font-family: 'orbitron', sans-serif;
 	font-weight:bold;
-	color: black;
 	text-align: center;
 	font-size: 32;
 }
 
 h3 {
 	font-style: bold;
-	color: black;
 	text-align: center;
 }
 div {
-	color: black;
 	text-align: center;
 }
 
 a {
 	text-decoration: none;
 }
-
+a:hover {
+	color: silver;
+}
+ul {
+	list-style: none;
+}
+.container {
+	width: 900px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+}
+.pagesList {
+	display: flex;
+	justify-content: space-around;
+}
+.pagesList__pagesItem {
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+}
 .pagesItem--currentPage {
 	font-weight: bold;
-	color: Green;
+	color: Grey;
 }
